@@ -62,7 +62,8 @@ let  httpServer = http.createServer(app);
 let httpsServer = https.createServer(credentials, app);
 
 //connect to mogodb
-mongoose.connect('mongodb://localhost/meanapp');
+//mongoose.connect('mongodb://localhost/meanapp');
+mongoose.connect('mongodb://admin:admin1@ds045694.mlab.com:45694/580project');
 mongoose.connection.once('open', function(){
     //load the models ...
     app.models = require('./models/index');
@@ -72,5 +73,6 @@ mongoose.connection.once('open', function(){
         app.use(route, controller(app, route));
     });
    console.log('listening on port 3000...');
-   httpsServer = httpsServer.listen(3000); 
+   httpServer = httpServer.listen(3000); 
+   //httpsServer = httpsServer.listen(3000);
 });
