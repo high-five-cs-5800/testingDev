@@ -35,10 +35,10 @@ app.use(function(req, res, next){
     next();
 });
 
-app.use('/', function(req, res, next){
-  res.send('express node server running');
-  next();
-});
+//app.use('/', function(req, res, next){
+//  res.send('express node server running');
+//  next();
+//});
 
 app.use('/hello', function(req, res, next){
     res.send('Hellow World');
