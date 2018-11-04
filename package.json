@@ -2,10 +2,10 @@
   "name": "one_stop_posting",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "express-server.js",
   "scripts": {
-    "devstart": "nodemon index.js",
-    "start": "node index.js"
+    "devstart": "nodemon express-server.js",
+    "start": "node express-server.js"
   },
   "author": "",
   "license": "ISC",
