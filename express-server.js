@@ -35,7 +35,7 @@ app.use(function(req, res, next){
     next();
 });
 
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
 
 //app.use('/', function(req, res, next){
 //  res.send('express node server running');
