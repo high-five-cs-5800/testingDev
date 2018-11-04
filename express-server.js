@@ -50,7 +50,7 @@ app.use('/hello', function(req, res, next){
 //});
 
 app.use('/bodyDemo', function(req, res, next){
-	res.sendFile(path.join('./body.html'));
+	res.sendFile(path.join('/public/body.html'));
 });
 
 
