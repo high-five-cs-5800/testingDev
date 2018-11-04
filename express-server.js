@@ -41,7 +41,7 @@ app.use(function(req, res, next){
 //});
 
 app.use('/hello', function(req, res, next){
-    res.send('Hellow World');
+    res.send('Hello World');
     next();
 });
 
@@ -50,7 +50,7 @@ app.use('/hello', function(req, res, next){
 //});
 
 app.use('/bodyDemo', function(req, res, next){
-	res.sendFile(path.join('./public/body.html'));
+	res.sendFile(path.join('./body.html'));
 });
 
 
