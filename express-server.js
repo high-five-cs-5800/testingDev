@@ -52,7 +52,7 @@ app.use('/hello', function(req, res, next){
 //});
 
 app.use('/bodyDemo', function(req, res, next){
-	res.sendFile(_dirname + "/public/" + 'body.html');
+	res.sendFile(__dirname + "/public/" + 'body.html');
 });
 
 
