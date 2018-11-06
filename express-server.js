@@ -1,4 +1,4 @@
-\//loading the middlewares
+//loading the middlewares
 let express = require('express')
 let mongoose = require('mongoose');
 let bodyParser = require('body-parser');
