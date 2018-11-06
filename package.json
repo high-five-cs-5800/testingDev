@@ -5,7 +5,7 @@
   "main": "express-server.js",
   "scripts": {
     "devstart": "nodemon express-server.js",
-    "startnode": "node express-server.js"
+    "start": "node express-server.js"
   },
   "author": "",
   "license": "ISC",
