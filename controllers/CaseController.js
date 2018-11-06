@@ -3,7 +3,7 @@ var restful = require('node-restful');
 module.exports = function(app, route){
     var rest = restful.model(
         'case',
-        app.models.case
+        app.models.cases
     ).methods(['get', 'put', 'post', 'delete']);
     rest.register(app, route);
 

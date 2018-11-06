@@ -1,5 +1,5 @@
 module.exports = {
-    movie: require('./Movie.js'),
-    user: require('./User.js'),
-    case: require('./Case.js') 
+    movies: require('./Movie.js'),
+    users:  require('./User.js'),
+    cases:  require('./Case.js') 
 };
